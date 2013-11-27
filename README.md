@@ -1,26 +1,21 @@
 # spac
 cli chat.meatspac.es client in node.js
 
-## usage
-```js
-var spac = require('spac')
-```
-
-
-## api
-
-
 ## installation
 
-    $ npm install spac
+    $ npm install -g spac
 
+(depending on your system, you may need to use `sudo`)
+
+## usage
+
+from a terminal,
+
+    $ spac
 
 ## running the tests
 
-From package root:
-
-    $ npm install
-    $ npm test
+lol. plz contribute some mebbe?
 
 
 ## contributors
