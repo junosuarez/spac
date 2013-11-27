@@ -7,6 +7,17 @@ cli chat.meatspac.es client in node.js
 
 (depending on your system, you may need to use `sudo`)
 
+if you get errors, you need the following things (on osx):
+
+```
+$ brew install cairo
+$ brew install giflib
+```
+
+then re-install `spac`.
+
+you may need to add `/opt/X11/lib/pkgconfig` to your $PKG_CONFIG_PATH
+
 ## usage
 
 from a terminal,
