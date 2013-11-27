@@ -23,6 +23,10 @@ lol. plz contribute some mebbe?
 - jden <jason@denizac.org>
 
 
+## inspired by
+https://github.com/abelsonlive/cl-meats
+thanks bro!
+
 ## license
 
 MIT. (c) MMXIII jden <jason@denizac.org>. See LICENSE.md
