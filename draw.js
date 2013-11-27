@@ -52,7 +52,7 @@ function renderToTerm(src) {
   var g = 0
   var b = 0
   var px = 0
-  console.log(src.data[0], src.data[1], src.data[2], src.data[3])
+
   while(px < (src.width * src.height * 4)) {
     r = src.data[px++]
     g = src.data[px++]

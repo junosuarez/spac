@@ -6,7 +6,7 @@ function spac () {
 const socket = socketIO.connect('https://chat.meatspac.es')
 
 socket.on('connect', function () {
-  console.log('teim to spac some meats')
+  console.log('teim to spac some meats 🍗')
   socket.on('message', function (e) {
 
     var gif = new Buffer(
@@ -18,16 +18,6 @@ socket.on('connect', function () {
     drawGif(gif)
     console.log(e.chat.value.message)
     console.log('=====================')
-
-    // drawGif
-
-    // imaging.draw(e.chat.value.media, {char: '●'},
-    //   function (resp, status) {
-    //   console.log('==============================================================')
-    //   console.log(resp)
-    //   console.log(e.chat.value.message)
-
-    // })
 
   })
 })
@@ -41,5 +31,3 @@ socket.on('error', function (e) {
 }
 
 module.exports = spac
-
-spac()
